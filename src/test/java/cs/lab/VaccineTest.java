@@ -17,7 +17,7 @@ class VaccineTest {
     Center b = new Center("b");
     Center c = new Center("c");
 
-    @Test(threadPoolSize = 80)
+    @Test(threadPoolSize = 50)
     public void testCase1() throws IOException
     {
         long startTime = System.currentTimeMillis();
@@ -31,7 +31,7 @@ class VaccineTest {
         Assert.assertTrue(executionTime < maxExecutionTimeAns);
     }
 
-    @Test(threadPoolSize = 80)
+    @Test(threadPoolSize = 50)
     public void testCase2() throws IOException
     {
         long startTime = System.currentTimeMillis();
