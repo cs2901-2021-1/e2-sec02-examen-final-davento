@@ -3,8 +3,8 @@ import java.util.logging.Logger;
 
 class Center {
     private String name;
-    int avance;
-    int cobertura;
+    float avance;
+    float cobertura;
     int vacunadosP;
     int vacunadosC;
 <span class="fc" id="L10">    static final Logger logger = Logger.getLogger(Center.class.getName());</span>
@@ -18,11 +18,11 @@ class Center {
     }
 
     public void printInfo() {
-<span class="nc" id="L21">        logger.info(() -&gt; &quot;Nombre del centro: &quot; + name);</span>
-<span class="nc" id="L22">        logger.info(() -&gt; &quot;Avance: &quot; + avance);</span>
-<span class="nc" id="L23">        logger.info(() -&gt; &quot;Cobertura: &quot; + cobertura);</span>
-<span class="nc" id="L24">        logger.info(() -&gt; &quot;Vacunados completos:&quot; + vacunadosC);</span>
-<span class="nc" id="L25">        logger.info(() -&gt; &quot;Vacunados parciales: &quot; + vacunadosP);</span>
-<span class="nc" id="L26">    }</span>
+<span class="fc" id="L21">        logger.info(() -&gt; &quot;Nombre del centro: &quot; + name);</span>
+<span class="fc" id="L22">        logger.info(() -&gt; &quot;Avance: &quot; + avance);</span>
+<span class="fc" id="L23">        logger.info(() -&gt; &quot;Cobertura: &quot; + cobertura);</span>
+<span class="fc" id="L24">        logger.info(() -&gt; &quot;Vacunados completos:&quot; + vacunadosC);</span>
+<span class="fc" id="L25">        logger.info(() -&gt; &quot;Vacunados parciales: &quot; + vacunadosP);</span>
+<span class="fc" id="L26">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

@@ -2,15 +2,15 @@
 
 ## Requerimientos
 
-F01. user login
-F02. show info (avance, cobertura, número de centros, personas vacunadas parcialmente, personas vacunadas completamente)
-F05. user logout
-F03. crear un centro de vacunación
-F04. eliminar un centro de vacunación
-F06. visualizar porcentaje por categoría*
-N01. allows use of 50 centers simultaneously
-N02. 2s answers
-N03. 3s notify
+F01. user login: NOT done
+F02. show info (avance, cobertura, número de centros, personas vacunadas parcialmente, personas vacunadas completamente): 
+F03. crear un centro de vacunación: DONE (addCenter)
+F04. eliminar un centro de vacunación: DONE (removeCenter)
+F05. user logout: NOT done
+F06. visualizar porcentaje por categoría*: NOT done
+N01. allows use of 50 centers simultaneously: threadPoolSize = 50
+N02. 2s answers: execution time works
+N03. 3s notify: execution time works
 
 \* 22.935.533 personas:
 

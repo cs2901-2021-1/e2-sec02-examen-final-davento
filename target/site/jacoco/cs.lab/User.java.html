@@ -5,19 +5,18 @@ class User{
 
     String username;
     String password;
-<span class="nc" id="L8">    static final Logger logger = Logger.getLogger(User.class.getName());</span>
+<span class="fc" id="L8">    static final Logger logger = Logger.getLogger(User.class.getName());</span>
 
-    public void update(String info, Center centro) {
-<span class="nc" id="L11">        var response = &quot;Se actualizó la siguiente información para el centro &quot; + centro.getName() + &quot;!\n &gt; &quot; + info;</span>
-<span class="nc" id="L12">        logger.info(response);</span>
-<span class="nc" id="L13">    }</span>
+    public void update(Center centro) {
+<span class="fc" id="L11">        var response = &quot;Se actualizó la siguiente información para el centro &quot; + centro.getName() + &quot;!\n &gt; &quot;;</span>
+<span class="fc" id="L12">        centro.printInfo();</span>
+<span class="fc" id="L13">        logger.info(response);</span>
+<span class="fc" id="L14">    }</span>
 
-<span class="nc" id="L15">    public User() {}</span>
+<span class="fc" id="L16">    public User(String username, String password) {</span>
+<span class="fc" id="L17">        this.username = username;</span>
+<span class="fc" id="L18">        this.password = password;</span>
 
-<span class="nc" id="L17">    public User(String username, String password) {</span>
-<span class="nc" id="L18">        this.username = username;</span>
-<span class="nc" id="L19">        this.password = password;</span>
-
-<span class="nc" id="L21">    }</span>
+<span class="fc" id="L20">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

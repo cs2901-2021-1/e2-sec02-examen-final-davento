@@ -1,16 +1,33 @@
 
-)cs.lab.Center#getName()Ljava/lang/String;a
-W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java ("1*‰
+__sonar_lambda_0$cs.lab.Centera
+W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (6"startingBlock*Ý
+startingBlocka
+W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (6d
+b
+
+__unknown_file (
+Center.thiscs.lab.Center"__id*"* 
+cs.lab.Center"
+Center.this*
+1*Ô
 1a
-W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (¡
-ž
+W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (/®
+«
 a
-W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (
-%0java.lang.String"__id**
-cs.lab.Center"
-name"}
+W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java2 (6
+%2java.lang.String"__id*(*&
+
+Center.thiscs.lab.Center"
+name»
+¸
 a
-W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (
+W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (6
+%3java.lang.String"__concat*
+Nombre del centro: *
 
-%0java.lang.StringB
-cs.lab.Center
+%2java.lang.String"}
+a
+W/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/src/main/java/cs/lab/Center.java (6
+
+%3java.lang.StringB
+java.util.function.Supplier

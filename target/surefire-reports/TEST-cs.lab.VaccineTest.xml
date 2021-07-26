@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cs.lab.VaccineTest" time="1.327" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cs.lab.VaccineTest" time="0.768" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -20,7 +20,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="localRepository" value="/home/phaidooo/.m2/repository"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-14-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/target/surefire/surefirebooter8254625751370765119.jar /mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/target/surefire 2021-07-26T17-45-02_163-jvmRun1 surefire14482290426834074552tmp surefire_015273039185075404041tmp"/>
+    <property name="sun.java.command" value="/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/target/surefire/surefirebooter13325676786554250855.jar /mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/target/surefire 2021-07-26T18-23-01_731-jvmRun1 surefire14253296158203547375tmp surefire_018160423257222885276tmp"/>
     <property name="java.vendor.url.bug" value="Unknown"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="jdk.debug" value="release"/>
@@ -47,9 +47,10 @@
     <property name="java.vm.version" value="14.0.2+12-Ubuntu-120.04"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
-    <property name="surefire.real.class.path" value="/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/target/surefire/surefirebooter8254625751370765119.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/abril/repos/e2-sec02-examen-final-davento/target/surefire/surefirebooter13325676786554250855.jar"/>
   </properties>
-  <testcase name="testCase1" classname="cs.lab.VaccineTest" time="0.1"/>
-  <testcase name="testCase2" classname="cs.lab.VaccineTest" time="0.015"/>
-  <testcase name="testCase3" classname="cs.lab.VaccineTest" time="0.018"/>
+  <testcase name="testCase1" classname="cs.lab.VaccineTest" time="0.052"/>
+  <testcase name="testCase2" classname="cs.lab.VaccineTest" time="0.003"/>
+  <testcase name="testCase3" classname="cs.lab.VaccineTest" time="0.048"/>
+  <testcase name="testCase4" classname="cs.lab.VaccineTest" time="0.003"/>
 </testsuite>

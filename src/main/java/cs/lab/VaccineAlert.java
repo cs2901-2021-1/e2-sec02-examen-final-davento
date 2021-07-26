@@ -5,7 +5,6 @@ import java.util.List;
 public final class VaccineAlert {
 
     private static VaccineAlert instance;
-    private String info = "";
     private List<User> users = new ArrayList<>();
     private List<Center> centers = new ArrayList<>();
 
@@ -21,26 +20,36 @@ public final class VaccineAlert {
         this.centers.removeIf(center -> center.getName().equals(name));
     }
 
-    public void subscribe(User user) {
-        this.users.add(user);
+    public void subscribe(String username, String pass) {
+        User u = new User(username, pass);
+        this.users.add(u);
     }
 
-    public void unsubscribe(User user) {
-        this.users.remove(user);
+    public void unsubscribe(String username) {
+        this.users.removeIf(user -> user.username.equals(username));
     }
 
-    public void notifyUsers() {
+    public void notifyUsers(String name) {
 
         for(Center center:this.centers) {
-            for (User user : this.users) {
-                user.update(this.info, center);
+            if(center.getName().equals(name)) {
+                for (User user : this.users) {
+                    user.update(center);
+                }
             }
         }
     }
 
-    public void setInfo(String info) {
-        this.info = info;
-        notifyUsers();
+    public void setInfo(String name, float avance, float cobertura, int vacunadosP, int vacunadosC) {
+        for(Center center:this.centers) {
+            if(center.getName().equals(name)) {
+                center.avance = avance;
+                center.cobertura = cobertura;
+                center.vacunadosP = vacunadosP;
+                center.vacunadosC = vacunadosC;
+            }
+        }
+        notifyUsers(name);
     }
 
     public static VaccineAlert getInstance() {

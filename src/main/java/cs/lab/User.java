@@ -7,12 +7,11 @@ class User{
     String password;
     static final Logger logger = Logger.getLogger(User.class.getName());
 
-    public void update(String info, Center centro) {
-        var response = "Se actualizó la siguiente información para el centro " + centro.getName() + "!\n > " + info;
+    public void update(Center centro) {
+        var response = "Se actualizó la siguiente información para el centro " + centro.getName() + "!\n > ";
+        centro.printInfo();
         logger.info(response);
     }
-
-    public User() {}
 
     public User(String username, String password) {
         this.username = username;

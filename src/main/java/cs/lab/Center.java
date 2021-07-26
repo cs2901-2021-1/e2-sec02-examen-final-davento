@@ -3,8 +3,8 @@ import java.util.logging.Logger;
 
 class Center {
     private String name;
-    int avance;
-    int cobertura;
+    float avance;
+    float cobertura;
     int vacunadosP;
     int vacunadosC;
     static final Logger logger = Logger.getLogger(Center.class.getName());
