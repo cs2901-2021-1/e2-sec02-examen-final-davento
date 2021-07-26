@@ -1,0 +1,7 @@
+organization=cs2901-2021-1
+projectKey=cs2901-2021-1_e2-sec02-examen-final-davento
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.22079
+dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2021-1_e2-sec02-examen-final-davento
+ceTaskId=AXrk_p_lZdDi_X7Y07Cx
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXrk_p_lZdDi_X7Y07Cx
